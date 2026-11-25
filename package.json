@@ -1,0 +1,12 @@
+{
+  "name": "swarm-kit",
+  "version": "2.1.0",
+  "private": true,
+  "description": "Coordinator tooling and lessons for multi-agent builds run through Orca",
+  "type": "module",
+  "bin": { "swarm": "bin/swarm.mjs" },
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\""
+  }
+}
